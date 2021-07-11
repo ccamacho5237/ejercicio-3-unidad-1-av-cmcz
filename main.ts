@@ -4,7 +4,7 @@ basic.forever(function () {
     basic.clearScreen()
     conductividad = pins.analogReadPin(AnalogPin.P0)
     proporcionalidad = pins.map(
-    0,
+    conductividad,
     0,
     1023,
     0,
